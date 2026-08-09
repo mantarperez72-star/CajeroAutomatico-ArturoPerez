@@ -157,7 +157,7 @@ public class CajeroAutomatico {
         System.out.printf("Retiro: Q%d\nComisión: Q%.2f\nSaldo anterior: Q%.2f\nTotal debitado: Q%.2f\nSaldo actualizado: Q%.2f\n", monto, comision, saldoAnterior, total, saldo);
     }
 
-
+//resumen de sesion
     public static void mostrarResumen() {
         System.out.println("\n--- RESUMEN DE LA SESIÓN ---");
         System.out.printf("Saldo inicial: Q%.2f\n", saldoInicial);
