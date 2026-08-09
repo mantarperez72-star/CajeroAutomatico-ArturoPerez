@@ -108,7 +108,7 @@ public class CajeroAutomatico {
         System.out.printf("Depósito: Q%.2f\nSaldo anterior: Q%.2f\nSaldo actualizado: Q%.2f\n", monto, saldoAnterior, saldo);
     }
 
-
+//retiros normales y con comision
     public static void retirar(Scanner sc) {
         System.out.print("Ingrese monto a retirar: ");
         int monto = sc.nextInt();
