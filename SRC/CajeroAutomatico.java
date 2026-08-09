@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CajeroAutomatico {
-
+//control de acceso con pin
     static String titular = "Arturo Pérez";
     static String cuenta = "22044";
     static final int PIN = 2026;
