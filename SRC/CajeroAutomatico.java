@@ -8,7 +8,7 @@ public class CajeroAutomatico {
     static double saldo = 1000.00;
     static final double COMISION = 10.00;
 
-
+//menu principal y depositos
     static int depositosExitosos = 0;
     static double totalDepositado = 0;
     static int retirosExitosos = 0;
