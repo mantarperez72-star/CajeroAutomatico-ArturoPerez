@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class CajeroAutomatico {
-//control de acceso con pin
+
     static String titular = "Arturo Pérez";
     static String cuenta = "22044";
     static final int PIN = 2026;
     static double saldo = 1000.00;
     static final double COMISION = 10.00;
 
-//menu principal y depositos
+
     static int depositosExitosos = 0;
     static double totalDepositado = 0;
     static int retirosExitosos = 0;
@@ -108,7 +108,7 @@ public class CajeroAutomatico {
         System.out.printf("Depósito: Q%.2f\nSaldo anterior: Q%.2f\nSaldo actualizado: Q%.2f\n", monto, saldoAnterior, saldo);
     }
 
-//retiros normales y con comision
+
     public static void retirar(Scanner sc) {
         System.out.print("Ingrese monto a retirar: ");
         int monto = sc.nextInt();
@@ -157,7 +157,7 @@ public class CajeroAutomatico {
         System.out.printf("Retiro: Q%d\nComisión: Q%.2f\nSaldo anterior: Q%.2f\nTotal debitado: Q%.2f\nSaldo actualizado: Q%.2f\n", monto, comision, saldoAnterior, total, saldo);
     }
 
-//resumen de sesion
+
     public static void mostrarResumen() {
         System.out.println("\n--- RESUMEN DE LA SESIÓN ---");
         System.out.printf("Saldo inicial: Q%.2f\n", saldoInicial);
